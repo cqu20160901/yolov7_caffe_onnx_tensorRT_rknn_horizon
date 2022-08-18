@@ -4,7 +4,7 @@ from math import sqrt
 from math import exp
 import cv2
 
-caffe_root = '/zhangqian/caffe-master/'
+caffe_root = '/root/caffe-master/'
 sys.path.insert(0, caffe_root + 'python')
 import caffe
 

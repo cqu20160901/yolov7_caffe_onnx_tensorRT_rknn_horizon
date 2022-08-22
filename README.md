@@ -11,3 +11,5 @@ yolov7_TensorRT：TensorRT版本模型、测试图像、测试结果、测试dem
 
 # 测试结果
 ![image](https://github.com/cqu20160901/yolov7_caffe_onnx_tensorRT/blob/main/yolov7_caffe/result.jpg)
+
+说明：预处理没有考虑等比率缩放和以及BGR2RGB

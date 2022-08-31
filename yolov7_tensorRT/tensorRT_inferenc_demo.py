@@ -9,7 +9,7 @@ from math import sqrt
 TRT_LOGGER = trt.Logger()
 
 
-CLASSES = ('car', 'tail', 'tailB', 'person', 'cyclist')
+CLASSES = ['car', 'tail', 'tailB', 'person', 'cyclist']
 
 class_num = len(CLASSES)
 anchor_num = 3
@@ -101,8 +101,8 @@ def grid_cell_init():
     for index in range(output_head):
         for w in range(cell_size[index][1]):
             for h in range(cell_size[index][0]):
-                grid_cell[index][h][w][0] = w;
-                grid_cell[index][h][w][1] = h;
+                grid_cell[index][h][w][0] = w
+                grid_cell[index][h][w][1] = h
 
 
 def IOU(xmin1, ymin1, xmax1, ymax1, xmin2, ymin2, xmax2, ymax2):
@@ -220,6 +220,7 @@ def main():
     input_image_path = 'test.jpg'
 
     orig = cv2.imread(input_image_path)
+    orig = cv2.cvtColor(orig, cv2.COLOR_BGR2RGB)
     img_h, img_w = orig.shape[:2]
     image = preprocess(orig)
 

@@ -9,6 +9,8 @@ yolov7_onnx：onnx模型、测试图像、测试结果、测试demo脚本
 
 yolov7_TensorRT：TensorRT版本模型、测试图像、测试结果、测试demo脚本、onnx模型、onnx2tensorRT脚本(tensorRT-7.2.3.4)
 
+yolov7_rknn：rknn模型、测试（量化）图像、测试结果、onnx2rknn转换测试脚本
+
 # 测试结果
 ![image](https://github.com/cqu20160901/yolov7_caffe_onnx_tensorRT/blob/main/yolov7_caffe/result.jpg)
 

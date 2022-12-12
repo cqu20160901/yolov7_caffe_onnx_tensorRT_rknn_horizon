@@ -11,6 +11,8 @@ yolov7_TensorRT：TensorRT版本模型、测试图像、测试结果、测试dem
 
 yolov7_rknn：rknn模型、测试（量化）图像、测试结果、onnx2rknn转换测试脚本
 
+yolov7_horizon：地平线模型、测试（量化）图像、测试结果、转换测试脚本、测试量化后onnx模型脚本
+
 # 测试结果
 ![image](https://github.com/cqu20160901/yolov7_caffe_onnx_tensorRT/blob/main/yolov7_caffe/result.jpg)
 

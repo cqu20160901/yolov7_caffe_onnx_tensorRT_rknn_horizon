@@ -18,3 +18,5 @@ yolov7_horizon：地平线模型、测试（量化）图像、测试结果、转
 ![image](https://github.com/cqu20160901/yolov7_caffe_onnx_tensorRT/blob/main/yolov7_caffe/result.jpg)
 
 说明：预处理没有考虑等比率缩放，激活函数 SiLU 用 Relu 进行了替换。
+
+导出onnx模型参考 ![导出onnx模型](https://blog.csdn.net/zhangqian_1/article/details/129138325)
